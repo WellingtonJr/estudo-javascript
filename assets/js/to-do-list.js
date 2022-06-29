@@ -30,3 +30,8 @@ function adicionaTarefa(){
     
 }
 
+var teste = false ; 
+
+var teste2 = teste ? 'sim' : 'nao';
+
+console.log(teste2);
