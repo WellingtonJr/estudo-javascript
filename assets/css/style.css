@@ -4,8 +4,20 @@ body{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
+input,button{
+    border-radius: 4px;
+}
+
+input:checked + label.label-input-tarefa{
+    text-decoration: line-through;
+    color: grey;
+}
+
 .container{
+    width: 260px;
+    /* border: 2px solid white; */
     display: flex;
     align-items: center;
-    justify-content: start;
+    justify-content: space-between
 }
+
