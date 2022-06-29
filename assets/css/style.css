@@ -1,0 +1,11 @@
+body{
+    background-color: #21201d;
+    color: aliceblue;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: start;
+}
