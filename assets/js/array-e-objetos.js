@@ -34,3 +34,4 @@ function getFullName({fullName: {firstName: first, lastName: last}}){
 userId(user);
 
 getFullName(user);
+
