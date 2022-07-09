@@ -62,7 +62,7 @@ console.log(filtraPares([1, 2, 3, 4]));
 //ATV REDUCE SOMA NUMERO
 function somaNumeros(arr) {
 	if (!arr || !arr.length) return;
-	const soma = arr.reduce((prev, curr) => prev + curr);
+	const soma = arr.reduce((prev, curr) => prev + curr); 
 
 	return soma;
 }
